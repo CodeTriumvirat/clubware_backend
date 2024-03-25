@@ -1,2 +1,0 @@
-- Run `select set_claim('<user id here>', 'claims_admin', 'true');`
-- Run `select set_claim('<user id here>', 'userrole', '"admin"');`
