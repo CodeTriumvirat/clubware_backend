@@ -1,6 +1,6 @@
 # Clubware.io Backend Repository
 
-Welcome to the Clubware.io Backend Repository. This project is the backbone of Clubware.io, built on the powerful and scalable [Supabase](https://supabase.com/docs) platform. It works seamlessly with our [Next.js frontend](<Link to your Next.js frontend repository>).
+Welcome to the Clubware.io Backend Repository. This project is the backbone of Clubware.io, built on the powerful and scalable [Supabase](https://supabase.com/docs) platform. It works seamlessly with our [Next.js frontend](https://github.com/CodeTriumvirat/clubware_frontend).
 
 ## Getting Started
 
