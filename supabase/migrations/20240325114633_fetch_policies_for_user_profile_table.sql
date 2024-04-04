@@ -5,8 +5,8 @@ on "public"."user_profile"
 as permissive
 for all
 to authenticated
-using ((get_my_claim('userrole'::text) = '"admin"'::jsonb))
-with check ((get_my_claim('userrole'::text) = '"admin"'::jsonb));
+using ((get_my_claim('user_role'::text) = '"admin"'::jsonb))
+with check ((get_my_claim('user_role'::text) = '"admin"'::jsonb));
 
 
 create policy "Enable all access for users based on user_id"
