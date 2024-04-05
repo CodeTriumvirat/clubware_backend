@@ -14,4 +14,10 @@ CREATE TABLE public.user_profile (
     REFERENCES auth.users (id) ON DELETE CASCADE
 );
 
+create type "public"."user_role" as enum ('admin', 'worker');
+
+alter table "public"."user_profile" alter column "user_role" set default 'worker'::user_role;
+
+alter table "public"."user_profile" alter column "user_role" set data type user_role using "user_role"::user_role;
+
 
